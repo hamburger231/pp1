@@ -1,0 +1,8 @@
+ogprice = float(input("Enter original price: "))
+discount = input("Enter the discount: ").strip().replace("%","")
+discount = int(discount)
+discamount = ogprice*(discount/100)
+print("Original price:",ogprice)
+print("Discount amount: ",discount,"%",sep="")
+print("Discounted price:",ogprice-discamount)
+print("Reduction:",discamount)
